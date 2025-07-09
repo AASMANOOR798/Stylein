@@ -1,88 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Style In | Boutique Clothing</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <title>Style In Boutique</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; background-color: #fdf6f0; color: #333; }
+    header { background-color: #d7a9b3; padding: 2rem; }
+    h1 { margin: 0; font-size: 3rem; }
+    nav a { margin: 0 15px; text-decoration: none; color: white; font-weight: bold; }
+    section { padding: 2rem; }
+    footer { background: #d7a9b3; padding: 1rem; color: white; }
+  </style>
 </head>
-<body class="bg-white text-gray-800 font-sans">
-
-  <!-- Header -->
-  <header class="bg-white shadow-md">
-    <div class="max-w-7xl mx-auto px-4 py-6 flex justify-between items-center">
-      <h1 class="text-3xl font-bold text-gray-900">Style In</h1>
-      <nav class="space-x-6">
-        <a href="#home" class="text-gray-600 hover:text-black">Home</a>
-        <a href="#about" class="text-gray-600 hover:text-black">About</a>
-        <a href="#shop" class="text-gray-600 hover:text-black">Shop</a>
-        <a href="#contact" class="text-gray-600 hover:text-black">Contact</a>
-      </nav>
-    </div>
+<body>
+  <header>
+    <h1>Style In Boutique</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Shop</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
   </header>
 
-  <!-- Hero Section -->
-  <section id="home" class="bg-gray-100 py-20 text-center">
-    <h2 class="text-5xl font-bold mb-4">Elevate Your Style</h2>
-    <p class="text-xl text-gray-600">Trendy. Elegant. Unique. Discover fashion that speaks for you.</p>
-    <a href="#shop" class="mt-6 inline-block bg-black text-white px-6 py-3 rounded-full hover:bg-gray-800">Shop Now</a>
+  <section>
+    <h2>Welcome to Style In</h2>
+    <p>Discover trendy outfits, elegant looks, and fashion you'll love.</p>
+    <p>New arrivals every week. Shop now!</p>
   </section>
 
-  <!-- About Section -->
-  <section id="about" class="py-16 max-w-5xl mx-auto px-4">
-    <h3 class="text-3xl font-bold mb-4">About Style In</h3>
-    <p class="text-gray-700 leading-relaxed">
-      Style In is a boutique clothing brand that blends modern elegance with timeless design. Whether you're dressing up for a special occasion or looking for everyday pieces that stand out, we've curated collections that help you express your true style.
-    </p>
-  </section>
-
-  <!-- Shop Section -->
-  <section id="shop" class="bg-gray-50 py-16 px-4">
-    <div class="max-w-6xl mx-auto">
-      <h3 class="text-3xl font-bold text-center mb-10">Featured Collection</h3>
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <img src="https://via.placeholder.com/300x400" alt="Product 1" class="w-full h-80 object-cover">
-          <div class="p-4">
-            <h4 class="font-bold text-lg">Elegant Blazer</h4>
-            <p class="text-gray-600">$89.00</p>
-          </div>
-        </div>
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <img src="https://via.placeholder.com/300x400" alt="Product 2" class="w-full h-80 object-cover">
-          <div class="p-4">
-            <h4 class="font-bold text-lg">Chic Maxi Dress</h4>
-            <p class="text-gray-600">$129.00</p>
-          </div>
-        </div>
-        <div class="bg-white shadow rounded-lg overflow-hidden">
-          <img src="https://via.placeholder.com/300x400" alt="Product 3" class="w-full h-80 object-cover">
-          <div class="p-4">
-            <h4 class="font-bold text-lg">Casual Denim Jacket</h4>
-            <p class="text-gray-600">$69.00</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="py-16 px-4 bg-white">
-    <div class="max-w-xl mx-auto text-center">
-      <h3 class="text-3xl font-bold mb-6">Get in Touch</h3>
-      <form class="space-y-4 text-left">
-        <input type="text" placeholder="Your Name" class="w-full border border-gray-300 p-3 rounded" required />
-        <input type="email" placeholder="Your Email" class="w-full border border-gray-300 p-3 rounded" required />
-        <textarea placeholder="Your Message" rows="4" class="w-full border border-gray-300 p-3 rounded" required></textarea>
-        <button type="submit" class="w-full bg-black text-white py-3 rounded hover:bg-gray-800">Send Message</button>
-      </form>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-gray-100 text-center py-6 text-gray-600">
-    <p>&copy; 2025 Style In. All rights reserved.</p>
+  <footer>
+    &copy; 2025 Style In Boutique. All rights reserved.
   </footer>
-
 </body>
 </html>
