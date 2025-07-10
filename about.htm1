@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About Us – Style In Boutique</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf6f0;
+      margin: 0;
+      padding: 2rem;
+      color: #333;
+    }
+    header {
+      background-color: #d7a9b3;
+      padding: 1rem;
+      text-align: center;
+      color: white;
+    }
+    h1 {
+      margin: 0;
+    }
+    section {
+      max-width: 700px;
+      margin: 2rem auto;
+      line-height: 1.6;
+    }
+    footer {
+      background: #d7a9b3;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>About Style In Boutique</h1>
+    <p><a href="index.html" style="color: white; text-decoration: underline;">Home</a> | <a href="shop.html" style="color: white; text-decoration: underline;">Shop</a></p>
+  </header>
+
+  <section>
+    <h2>Our Story</h2>
+    <p>Welcome to Style In Boutique, your go-to destination for trendy and elegant clothing. Founded in 2020, our mission is to provide unique fashion that makes you feel confident and stylish.</p>
+    <p>We carefully select each item to ensure quality and comfort, because you deserve the best. Whether you’re dressing up for a special occasion or looking for everyday chic, Style In has you covered.</p>
+    <p>Thank you for being part of our journey!</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Style In Boutique
+  </footer>
+</body>
+</html>
