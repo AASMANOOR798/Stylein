@@ -1,36 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Style In Boutique</title>
-  <style>
-    body { font-family: Arial, sans-serif; text-align: center; background-color: #fdf6f0; color: #333; }
-    header { background-color: #d7a9b3; padding: 2rem; }
-    h1 { margin: 0; font-size: 3rem; }
-    nav a { margin: 0 15px; text-decoration: none; color: white; font-weight: bold; }
-    section { padding: 2rem; }
-    footer { background: #d7a9b3; padding: 1rem; color: white; }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Style In Boutique</h1>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">Shop</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fdf6f0;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
 
-  <section>
-    <h2>Welcome to Style In</h2>
-    <p>Discover trendy outfits, elegant looks, and fashion you'll love.</p>
-    <p>New arrivals every week. Shop now!</p>
-  </section>
+  header {
+    background-color: #d7a9b3;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+  }
 
-  <footer>
-    &copy; 2025 Style In Boutique. All rights reserved.
-  </footer>
-</body>
-</html>
+  nav a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: underline;
+  }
+
+  section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 1rem;
+  }
+
+  footer {
+    background: #d7a9b3;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+  }
+
+  /* 📱 Mobile responsive design */
+  @media (max-width: 600px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    section {
+      margin: 1rem;
+      padding: 1rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    nav a {
+      font-size: 1rem;
+    }
+  }
+</style>
